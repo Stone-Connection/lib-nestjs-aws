@@ -1,0 +1,33 @@
+{
+  "name": "@StoneConnection/nestjs-aws",
+  "version": "1.0.0",
+  "description": "A module that connect to AWS Services",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "nest build",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "aws",
+    "nestjs"
+  ],
+  "author": "garymsilva",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^7.3.2",
+    "@nestjs/cli": "^7.4.1",
+    "aws-sdk": "^2.721.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.26",
+    "typescript": "^3.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stone-Connection/lib-nestjs-aws.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
